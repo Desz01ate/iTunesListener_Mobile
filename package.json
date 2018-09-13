@@ -1,0 +1,45 @@
+{
+  "name": "ituneslistener",
+  "orientation": "portrait",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "react-native-scripts": "1.14.0",
+    "jest-expo": "~27.0.0",
+    "react-test-renderer": "16.3.1"
+  },
+  "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
+  "scripts": {
+    "start": "react-native-scripts start",
+    "eject": "react-native-scripts eject",
+    "android": "react-native-scripts android",
+    "ios": "react-native-scripts ios",
+    "test": "jest"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "expo": "^27.0.1",
+    "react": "16.3.1",
+    "react-native": "~0.55.2",
+    "react-native-actionsheet": "^2.4.2",
+    "react-native-barcode-builder": "^1.0.5",
+    "react-native-collapsible": "^0.12.0",
+    "react-native-datepicker": "^1.7.2",
+    "react-native-elements": "^0.19.1",
+    "react-native-hide-with-keyboard": "^1.1.1",
+    "react-native-loading-spinner-overlay": "^0.5.2",
+    "react-native-simple-dialogs": "^0.3.1",
+    "react-native-super-grid": "^2.4.3",
+    "react-native-svg": "^6.5.1",
+    "react-native-swipeout": "^2.3.3",
+    "react-native-touch-id": "^4.0.4",
+    "react-native-vector-icons": "^4.6.0",
+    "react-navigation": "^2.6.2",
+    "react-navigator": "^0.0.0-0",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0",
+    "redux-thunk": "^2.3.0"
+  }
+}
